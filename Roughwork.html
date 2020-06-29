@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+
+    <title>Dry run at coding css</title>
+  </head>
+
+<style>
+
+h1{text-align:center;}
+
+/* for laptops and large devices */
+
+@media(min-width:968px) {
+
+.box1 {background-color: blue; color: white; width: 25%; height: 170px; padding-top: 1%; padding-left: 1%; float: right; position: relative; box-sizing: border-box;}
+
+.box2 {background-color: green; width: 35%; height: 30px; color: white; border: 1px solid black; margin: 10px grey;
+padding: 10px green; text-align: center; float: right; position: absolute; right: 0px; top: 0px; box-sizing: border-box;
+}
+
+.text_box {background-color: grey; color: red; width: 85%; height: 100px; float: right; position: absolute; top: 30px; left: 10px; }
+
+
+.box3 {background-color: blue; color: white; width: 25%; height: 170px; padding-top: 1%; padding-left: 1%; float: right; position: relative; box-sizing: border-box;}
+
+.box4 {background-color: red; width: 35%; height: 30px; color: white; border: 1px solid black; margin: 10px grey;
+padding: 10px green; text-align: center; float: right; position: absolute; right: 0px; top: 0px; box-sizing: border-box;
+}
+
+.box5 {background-color: blue; color: white; width: 25%; height: 170px; padding-top: 1%; padding-left: 1%; float: right; position: relative; box-sizing: border-box;}
+
+.box6 {background-color: orange; width: 35%; height: 30px; color: white; border: 1px solid black; margin: 10px grey;
+padding: 10px green; text-align: center; float: right; position: absolute; right: 0px; top: 0px; box-sizing: border-box;
+}
+
+.white_box0 {background-color: white; width: 6%; height: 100px; float: right;}
+.white_box1 {background-color: white; width: 6%; height: 100px; float: right;}
+.white_box2 {background-color: white; width: 6%; height: 100px; float: right;}
+.white_box3 {background-color: white; width: 6%; height: 100px; float: right;}
+.white_box_null {background-color: none; width: 0%; height: 0;}
+
+}
+
+/* For small sized devices, denoted by 's' appended to numbering */
+
+@media(max-width:768px) {
+
+.box1s {background-color: blue; color: white; width: 100%; height: 170px; padding-top: 1%; padding-left: 1%; float: right; position: relative; box-sizing: border-box;}
+
+.box2s {background-color: green; width: 35%; height: 30px; color: white; border: 1px solid black; margin: 10px grey;
+padding: 10px green; text-align: center; float: right; position: absolute; right: 0px; top: 0px; box-sizing: border-box;
+}
+
+.text_box {background-color: grey; color: red; width: 85%; height: 100px; float: right; position: absolute; top: 30px; left: 10px; }
+
+
+.box3s {background-color: blue; color: white; width: 100%; height: 170px; padding-top: 1%; padding-left: 1%; float: right; position: relative; box-sizing: border-box;}
+
+.box4s {background-color: red; width: 35%; height: 30px; color: white; border: 1px solid black; margin: 10px grey;
+padding: 10px green; text-align: center; float: right; position: absolute; right: 0px; top: 0px; box-sizing: border-box;
+}
+
+.box5s {background-color: blue; color: white; width: 100%; height: 170px; padding-top: 1%; padding-left: 1%; float: right; position: relative; box-sizing: border-box;}
+
+.box6s {background-color: orange; width: 35%; height: 30px; color: white; border: 1px solid black; margin: 10px grey;
+padding: 10px green; text-align: center; float: right; position: absolute; right: 0px; top: 0px; box-sizing: border-box;
+}
+
+.white_box0s {background-color: white; width: 100%; height: 50px; float: right;}
+.white_box1s {background-color: white; width: 100%; height: 50px; float: right;}
+.white_box2s {background-color: white; width: 100%; height: 50px; float: right;}
+.white_box3s {background-color: white; width: 100%; height: 50px; float: right;}
+.white_box_null {background-color: none; width: 0%; height: 0;}
+
+}
+/* For medium sized devices, denoted by 'm' appended to numbering */
+
+@media (min-width: 769px) and (max-width: 967px) {
+
+
+  .box1m {background-color: blue; color: white; width: 35%; height: 170px; padding-top: 1%; padding-left: 1%; float: right; position: relative; box-sizing: border-box;}
+
+  .box2m {background-color: green; width: 35%; height: 30px; color: white; border: 1px solid black; margin: 10px grey;
+  padding: 10px green; text-align: center; float: right; position: absolute; right: 0px; top: 0px; box-sizing: border-box;
+  }
+
+  .text_box {background-color: grey; color: red; width: 85%; height: 100px; float: right; position: absolute; top: 30px; left: 10px; }
+
+
+  .box3m {background-color: blue; color: white; width: 35%; height: 170px; padding-top: 1%; padding-left: 1%; float: right; position: relative; box-sizing: border-box;}
+
+  .box4m {background-color: red; width: 35%; height: 30px; color: white; border: 1px solid black; margin: 10px grey;
+  padding: 10px green; text-align: center; float: right; position: absolute; right: 0px; top: 0px; box-sizing: border-box;
+  }
+
+  .box5m {background-color: blue; color: white; width: 100%; height: 170px; padding-top: 1%; padding-left: 1%; float: right; position: relative; box-sizing: border-box;}
+
+  .box6m {background-color: orange; width: 35%; height: 30px; color: white; border: 1px solid black; margin: 10px grey;
+  padding: 10px green; text-align: center; float: right; position: absolute; right: 0px; top: 0px; box-sizing: border-box;
+  }
+
+  .white_box0m {background-color: white; width: 10%; height: 50px; float: right;}
+  .white_box1m {background-color: white; width: 10%; height: 50px; float: right;}
+  .white_box2m {background-color: white; width: 10%; height: 50px; float: right;}
+  .white_box3m {background-color: white; width: 10%; height: 50px; float: right;}
+  .white_box_medium {background-color: white; width: 100%; height: 50px; float: right;}
+
+
+}
+
+
+</style>
+
+  <body>
+
+<h1>Our menu</h1>
+
+<div class="white_box0 white_box0s white_box0m"> zeroth spacer</div>
+
+
+<div class="box1 box1s box1m"> wrapper box
+
+  <p class="text_box">
+    This food is really yummy. Trust me, I started this restaurant from scratch and it's grown really big now but I still taste my food everyday myself before serving it.
+  </p>
+  <div class="box2 box2s box2m">
+    Sushi
+  </div>
+</div>
+
+
+<div class="white_box1 white_box1s white_box1m"> first spacer</div>
+
+
+<div class="box3 box3s box3m"> wrapper box
+
+  <p class="text_box">
+    This food is really yummy. Trust me, I started this restaurant from scratch and it's grown really big now but I still taste my food everyday myself before serving it.
+  </p>
+  <div class="box4 box4s box4m">
+    Beef
+  </div>
+</div>
+
+
+<div class="white_box2 white_box2s white_box2m"> second spacer</div>
+
+<div class="white_box_null white_box_null white_box_medium">medium spacer toggle </div>
+
+<div class="box5 box5s box5m"> wrapper box
+
+  <p class="text_box">
+    This food is really yummy. Trust me, I started this restaurant from scratch and it's grown really big now but I still taste my food everyday myself before serving it.
+  </p>
+  <div class="box6 box6s box6m">
+    Chicken
+  </div>
+</div>
+
+<div class="white_box3 white_box3s white_box3m"> third spacer </div>
+
+
+  </body>
+</html>
